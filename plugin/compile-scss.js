@@ -237,7 +237,7 @@ class SassCompiler extends MultiFileCachingCompiler {
     const options = {
       sourceMap: true,
       sourceMapContents: true,
-      sourceMapEmbed: false,
+      sourceMapEmbed: true,
       sourceComments: true,
       omitSourceMapUrl: true,
       sourceMapRoot: '.',
