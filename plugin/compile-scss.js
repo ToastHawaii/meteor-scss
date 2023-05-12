@@ -238,7 +238,7 @@ class SassCompiler extends MultiFileCachingCompiler {
       sourceMap: true,
       sourceMapContents: true,
       sourceMapEmbed: false,
-      sourceComments: false,
+      sourceComments: true,
       omitSourceMapUrl: true,
       sourceMapRoot: '.',
       indentedSyntax : inputFile.getExtension() === 'sass',
